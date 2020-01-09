@@ -88,7 +88,7 @@ def grabData():
     else:
         updateText("", "")
         with open("save.txt", "w") as f:
-            f.write(emailID+","+phoneNumber+","+indexList) # remember you deleted driver path from here and courseSearch
+            f.write(emailID+","+phoneNumber+","+driverPath+","+indexList) # remember you deleted driver path from here and courseSearch
         courseSearch(emailID, phoneNumber, indexListSeparated, driverPath)
 
 
